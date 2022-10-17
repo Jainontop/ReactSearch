@@ -1,0 +1,28 @@
+.Width {
+    margin-top: 20px;
+    width: 500px;
+    height: 40px;
+}
+.Logo {
+    float: left;
+    width: 100px;
+    height:100px;
+}
+.Auto {
+    margin:0 auto;
+    width: 50%;
+}
+.card-img-top {
+    width: 120px;
+}
+.card-body {
+}
+.card {
+    flex-direction: row;
+}
+.card-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
